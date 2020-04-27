@@ -1,0 +1,14 @@
+To Run the program execute
+	python3 pythonDB.py 'password to server'
+
+If it is executed without a password token the program will default to using
+"password" for the password of the SQL server.
+
+The database will then be created and data read from the CSV file that must be
+in the same folder as the python script.
+
+NOTE: this program uses a pandas library, so must have Pandas installed.
+		pip3 install pandas
+
+
+SPENCER ROSS
